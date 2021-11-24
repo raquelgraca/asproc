@@ -109,6 +109,10 @@ p {
 }
 
 /* Benefícios */
+#bg-beneficios {
+    background-color: rgba(0, 100, 0, 0.1) !important;
+}
+
 #beneficios .card {
     width: 100%;
     height: auto;
