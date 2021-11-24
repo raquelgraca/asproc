@@ -9,12 +9,10 @@ body {
 h1,h2,h3,h4,h5 { 
     font-family:"Poiret One", sans-serif; 
     font-weight: bold;
-    font-size: 2.6vh;
 }
 
 p { 
-    padding: 0px; margin: 0px; margin-bottom: 0px !important; font-size: 1.9vh;
-
+    padding: 0px; margin: 0px; margin-bottom: 0px !important; font-size: 17px;
 }
 
 .card {
@@ -24,6 +22,21 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
     justify-content: space-around;
 }
+
+@media (max-width: @screen-xs) {
+    body{font-size: 9px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 12px;}
+}
+
+/*// >= 1200px (large desktop) */
+@media (min-width: @screen-lg-min) {
+    body{font-size: 50px;}
+ }
+
+   
 
 /* Logo Asproc topo */
 .navbar {
@@ -60,7 +73,6 @@ p {
     color:white;
     text-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
     text-align: left !important;
-    font-size: 2vh;
     min-width: 300px;
     max-width: 800px;
 
@@ -68,7 +80,7 @@ p {
 .btn {
     white-space: nowrap;
     margin-top:10px;
-    max-width: 180px;
+    max-width: 230px;
 }
 .carousel-item {
     width: 100%;
@@ -133,4 +145,4 @@ p {
 }
 .fab:hover, .far:hover {
     color:darkgreen;
-}
+}   

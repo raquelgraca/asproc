@@ -28,18 +28,13 @@
   </nav>
   <!-- Carrossel de fotos topo -->
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
     <div class="overlay-bg">
       <div class="hero-text d-flex flex-column mt-4">
         <h1>PIRARUCU<br />SELVAGEM DE MANEJO</h1>
         <p>É o maior peixe de escamas de água doce do mundo! Manejado de forma sustentável em ambientes
           naturais por povos e comunidades tradicionais da Amazônia, é uma das mais eficientes estratégias de
           conservação.</p>
-        <button type="button" class="btn btn-success"><p>Saiba onde comprar</p></button>
+        <a class="btn btn-success" href="https://gostodaamazonia.com.br/#sobre">Saiba onde comprar</a>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -55,6 +50,11 @@
             alt="Foto: Ana Catarina">
         </div>
       </div>
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
     </div>
   </div>
 
@@ -68,10 +68,9 @@
     </p>
     <div id="origem" class="card my-5">
       <img class="card-img-top" src="https://raquelgraca.github.io/asproc/images/pirarucu_5.jpeg" alt="Card image cap">
-      <div class="card-body">
+      <div class="d-flex card-body justify-content-between">
         <h5 class="card-title">Médio Juruá/AM</h5>
-        <p class="card-text">O manejo comunitário é realizado na RDS Uacri, na RESEX Médio Juruá e numa área de Acordo
-          de Pesca, desde 2011.</p>
+        <a href="#" class="card-link">Ver mapa</a>
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">Safra 2021</li>
@@ -80,29 +79,28 @@
         <li class="list-group-item">Crescimento de estoques de peixe</li>
       </ul>
       <div class="card-body">
-        <a href="#" class="card-link">Ver mapa</a>
+        <a class="btn btn-success" href="#">Saiba mais sobre o Manejo</a>
       </div>
     </div>
   </div>
   <!-- Seção Qualidade -->
   <div class="container container-md my-5">
     <h3>QUALIDADE</h3>
-    <p>Produto natural, sem uso de rações ou aditivos químicos, autorizado pelo IBAMA. O Pirarucu Selvagem de Manejo
-      é um alimento seguro, saudável, rico em ômega 3.</p>
     <div id="bg-qualidade">
       <div class="media d-flex flex-row justify-content-around mb-5">
         <img class="align-self-center mx-3 product-img w-50 img-thumbnail"
           src="https://raquelgraca.github.io/asproc/images/pirarucu-lombo.jpeg" alt="lombo peixe">
         <div class="media-body align-self-center m-3">
           <h4 class="mt-0">Produto Natural</h4>
-          <p class="text-left">Carne sem pele e sem espinha, versátil e de fácil preparo.</p>
+          <span class="text-left">- Natural, sem uso de rações ou aditivos químicos, autorizado pelo IBAMA
+            <br/>- Alimento seguro, saudável, rico em ômega 3</span>
         </div>
       </div>
       <div class="media d-flex flex-row align-self-right justify-content-around mb-5">
-        <div class="media-body align-self-center">
-          <h4 class="m-3">Receitas</h4>
-          <p class="text-left m-3">Saiba mais formas de preparo com a carne do Pirarucu Selavem Manejado.</p>
-          <a href="#" class="btn btn-success w-40" style="margin-left:15px">Ver Receitas</a>
+        <div class="media-body align-self-center m-3">
+          <h4>Receitas</h4>
+          <span class="text-left">- Carne sem pele e sem espinha, versátil e de fácil preparo<br/><br/>Como fazer?</span><br/>
+          <a href="#" class="card-link" style="color:#fff">Sugestões de receitas aqui!</a>
         </div>
         <img class="align-self-center mx-3 product-img w-50 img-thumbnail"
           src="https://raquelgraca.github.io/asproc/images/pirarucu_6.jpeg" alt="file de pirarucu">
