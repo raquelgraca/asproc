@@ -35,6 +35,14 @@ p {
     margin-bottom: 0px !important;
 }
 
+a {
+    color: rgb(14, 87, 14);
+    font-weight: bold;
+}
+a:hover {
+    color: green;
+}
+
 .credit {
     color: #d4d4d4;
     font-size: 0.7rem;
@@ -125,15 +133,6 @@ main {
     border-radius: 3px;
     background-color: rgba(0, 100, 0, 0.6);
     color: white;
-}
-
-.card-link {
-    color: rgb(14, 87, 14);
-    font-weight: bold;
-
-}
-.card-link:hover {
-    color: green;
 }
 
 /* Benefícios */
