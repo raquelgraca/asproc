@@ -38,7 +38,10 @@ p {
 .credit {
     color: #d4d4d4;
     font-size: 0.7rem;
+}
 
+main {
+    padding: 0em 1em;
 }
 
 .section {
@@ -96,7 +99,7 @@ p {
     max-width: 50em;
 }
 
-/* Local de Origin  */
+/* Local de Origem */
 
 .card-body {
     font-size: 0.9rem;
@@ -124,9 +127,19 @@ p {
     color: white;
 }
 
+.card-link {
+    color: rgb(14, 87, 14);
+    font-weight: bold;
+
+}
+.card-link:hover {
+    color: green;
+}
+
 /* Benefícios */
 #bg-beneficios {
     background-color: rgba(0, 100, 0, 0.1) !important;
+    padding: 0em 0em !important;
 }
 .card {
     margin: 30px auto;
@@ -143,11 +156,22 @@ p {
     position: relative;
 }
 #beneficios .card-title{
-    padding: 10px 10px;
+    padding: 0.5em;
     position: absolute;
     bottom:0px;
     left: 0px;
     background: rgba(0,0,0,0.4); 
+}
+
+.card-credit {
+    color: #d4d4d4;
+    font-size: 0.6rem;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    background: rgba(0,0,0,0.4); 
+    padding: 0 0.3em;
+
 }
 
 /* marca coletiva */
