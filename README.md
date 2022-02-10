@@ -1,7 +1,9 @@
 # asproc-product
 Produto de Origem - Page
 
-Bootstrap 4.1
-FontAwesome 5.15
-CSS
-HTML
+<ul>
+<li>Bootstrap 4.1</li>
+<li>FontAwesome 5.15</li>
+<li>CSS</li>
+<li>HTML</li>
+</ul>
